@@ -1,0 +1,9 @@
+cargo-features = ["alternative-registries"]
+
+[package]
+name = "broken-crate"
+version = "0.1.0"
+authors = ["Steven Fackler <sfackler@palantir.com>"]
+
+[dependencies]
+my-crate2 = { version = "0.1", registry = "bar" }

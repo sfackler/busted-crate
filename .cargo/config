@@ -1,0 +1,2 @@
+[registries.bar]
+index = "https://github.com/sfackler/busted-registry"
